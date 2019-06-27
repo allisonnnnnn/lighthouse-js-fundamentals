@@ -3,3 +3,9 @@ const isOdd = num => {
 };
 
 console.log(isOdd(11));
+
+function howManyHundreds(num) {
+  return Math.trunc(num % 100);
+}
+
+console.log(howManyHundreds(100));
